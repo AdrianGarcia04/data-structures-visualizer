@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+   <svg width='216' height='162'>
+      <g>
+      <circle fill='white' stroke='black' cx='108' cy='9' r='9' />
+      <text font-family='sans-serif' font-size='8' x='108' y='12' fill='black' text-anchor='middle'>1</text>
+      <line x1='114' y1='15' x2='162' y2='57' stroke='#000' stroke-width='1' />
+      <circle fill='white' stroke='black' cx='162' cy='57' r='9' />
+      <text font-family='sans-serif' font-size='8' x='162' y='60' fill='black' text-anchor='middle'>2</text>
+      <line x1='168' y1='63' x2='189' y2='105' stroke='#000' stroke-width='1' />
+      <circle fill='white' stroke='black' cx='189' cy='105' r='9' />
+      <text font-family='sans-serif' font-size='8' x='189' y='108' fill='black' text-anchor='middle'>3</text>
+      <line x1='195' y1='111' x2='203' y2='153' stroke='#000' stroke-width='1' />
+      <circle fill='white' stroke='black' cx='203' cy='153' r='9' />
+      <text font-family='sans-serif' font-size='8' x='203' y='156' fill='black' text-anchor='middle'>4</text>
+      </g>
+    </svg>

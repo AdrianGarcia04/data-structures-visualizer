@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+   <svg width='59' height='260'>
+      <defs>
+         <marker id='startarrow' markerWidth='5' markerHeight='6' refX='2' refY='3' orient='auto'>
+            <polygon points='9 0, 9 6, 0 2.8' fill='black'/>
+         </marker>
+         <marker id='endarrow' markerWidth='5' markerHeight='6' refX='2' refY='1.7' orient='auto'>
+            <polygon points='0 0, 5 1.5, 0 3.2' fill='black'/>
+         </marker>
+      </defs>
+      <g>
+      <rect x='5' y='5'  width='49' height='50' fill='white' stroke='white'/>
+      <line x1='5' y1='5' x2='5' y2='55' stroke='#000' stroke-width='1' />
+      <line x1='54' y1='5' x2='54' y2='55' stroke='#000' stroke-width='1' />
+      <text font-family='sans-serif' font-size='10' x='30' y='32' fill='black' text-anchor='middle'>10</text>
+      <rect x='5' y='55'  width='49' height='50' fill='white' stroke='white'/>
+      <line x1='5' y1='55' x2='5' y2='105' stroke='#000' stroke-width='1' />
+      <line x1='54' y1='55' x2='54' y2='105' stroke='#000' stroke-width='1' />
+      <text font-family='sans-serif' font-size='10' x='30' y='82' fill='black' text-anchor='middle'>20</text>
+      <rect x='5' y='105'  width='49' height='50' fill='white' stroke='white'/>
+      <line x1='5' y1='105' x2='5' y2='155' stroke='#000' stroke-width='1' />
+      <line x1='54' y1='105' x2='54' y2='155' stroke='#000' stroke-width='1' />
+      <text font-family='sans-serif' font-size='10' x='30' y='132' fill='black' text-anchor='middle'>19</text>
+      <rect x='5' y='155'  width='49' height='50' fill='white' stroke='white'/>
+      <line x1='5' y1='155' x2='5' y2='205' stroke='#000' stroke-width='1' />
+      <line x1='54' y1='155' x2='54' y2='205' stroke='#000' stroke-width='1' />
+      <text font-family='sans-serif' font-size='10' x='30' y='182' fill='black' text-anchor='middle'>6</text>
+      <rect x='5' y='205'  width='49' height='50' fill='white' stroke='white'/>
+      <line x1='5' y1='205' x2='5' y2='255' stroke='#000' stroke-width='1' />
+      <line x1='54' y1='205' x2='54' y2='255' stroke='#000' stroke-width='1' />
+      <text font-family='sans-serif' font-size='10' x='30' y='232' fill='black' text-anchor='middle'>3</text>
+      <line x1='5' y1='55' x2='54' y2='55' stroke='#000' stroke-width='1' />
+      <line x1='5' y1='105' x2='54' y2='105' stroke='#000' stroke-width='1' />
+      <line x1='5' y1='155' x2='54' y2='155' stroke='#000' stroke-width='1' />
+      <line x1='5' y1='205' x2='54' y2='205' stroke='#000' stroke-width='1' />
+      <line x1='5' y1='255' x2='54' y2='255' stroke='#000' stroke-width='1' />
+      </g>
+    </svg>

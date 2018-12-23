@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+   <svg width='352' height='189'>
+      <g>
+      <text font-family='sans-serif' font-size='6' x='187' y='9' fill='black' text-anchor='middle'>(3/0)</text>
+      <circle fill='white' stroke='black' cx='176' cy='22' r='11' />
+      <text font-family='sans-serif' font-size='8' x='176' y='25' fill='black' text-anchor='middle'>8</text>
+      <line x1='168' y1='30' x2='88' y2='74' stroke='#000' stroke-width='1' />
+      <text font-family='sans-serif' font-size='6' x='77' y='61' fill='black' text-anchor='middle'>(2/0)</text>
+      <circle fill='white' stroke='black' cx='88' cy='74' r='11' />
+      <text font-family='sans-serif' font-size='8' x='88' y='77' fill='black' text-anchor='middle'>4</text>
+      <line x1='80' y1='82' x2='44' y2='126' stroke='#000' stroke-width='1' />
+      <text font-family='sans-serif' font-size='6' x='33' y='113' fill='black' text-anchor='middle'>(1/0)</text>
+      <circle fill='white' stroke='black' cx='44' cy='126' r='11' />
+      <text font-family='sans-serif' font-size='8' x='44' y='129' fill='black' text-anchor='middle'>2</text>
+      <line x1='36' y1='134' x2='22' y2='178' stroke='#000' stroke-width='1' />
+      <text font-family='sans-serif' font-size='6' x='11' y='165' fill='black' text-anchor='middle'>(0/0)</text>
+      <circle fill='white' stroke='black' cx='22' cy='178' r='11' />
+      <text font-family='sans-serif' font-size='8' x='22' y='181' fill='black' text-anchor='middle'>1</text>
+      <line x1='52' y1='134' x2='66' y2='178' stroke='#000' stroke-width='1' />
+      <text font-family='sans-serif' font-size='6' x='77' y='165' fill='black' text-anchor='middle'>(0/0)</text>
+      <circle fill='white' stroke='black' cx='66' cy='178' r='11' />
+      <text font-family='sans-serif' font-size='8' x='66' y='181' fill='black' text-anchor='middle'>3</text>
+      <line x1='96' y1='82' x2='132' y2='126' stroke='#000' stroke-width='1' />
+      <text font-family='sans-serif' font-size='6' x='143' y='113' fill='black' text-anchor='middle'>(1/0)</text>
+      <circle fill='white' stroke='black' cx='132' cy='126' r='11' />
+      <text font-family='sans-serif' font-size='8' x='132' y='129' fill='black' text-anchor='middle'>6</text>
+      <line x1='124' y1='134' x2='110' y2='178' stroke='#000' stroke-width='1' />
+      <text font-family='sans-serif' font-size='6' x='99' y='165' fill='black' text-anchor='middle'>(0/0)</text>
+      <circle fill='white' stroke='black' cx='110' cy='178' r='11' />
+      <text font-family='sans-serif' font-size='8' x='110' y='181' fill='black' text-anchor='middle'>5</text>
+      <line x1='140' y1='134' x2='154' y2='178' stroke='#000' stroke-width='1' />
+      <text font-family='sans-serif' font-size='6' x='165' y='165' fill='black' text-anchor='middle'>(0/0)</text>
+      <circle fill='white' stroke='black' cx='154' cy='178' r='11' />
+      <text font-family='sans-serif' font-size='8' x='154' y='181' fill='black' text-anchor='middle'>7</text>
+      <line x1='184' y1='30' x2='264' y2='74' stroke='#000' stroke-width='1' />
+      <text font-family='sans-serif' font-size='6' x='275' y='61' fill='black' text-anchor='middle'>(2/0)</text>
+      <circle fill='white' stroke='black' cx='264' cy='74' r='11' />
+      <text font-family='sans-serif' font-size='8' x='264' y='77' fill='black' text-anchor='middle'>12</text>
+      <line x1='256' y1='82' x2='220' y2='126' stroke='#000' stroke-width='1' />
+      <text font-family='sans-serif' font-size='6' x='209' y='113' fill='black' text-anchor='middle'>(1/0)</text>
+      <circle fill='white' stroke='black' cx='220' cy='126' r='11' />
+      <text font-family='sans-serif' font-size='8' x='220' y='129' fill='black' text-anchor='middle'>10</text>
+      <line x1='212' y1='134' x2='198' y2='178' stroke='#000' stroke-width='1' />
+      <text font-family='sans-serif' font-size='6' x='187' y='165' fill='black' text-anchor='middle'>(0/0)</text>
+      <circle fill='white' stroke='black' cx='198' cy='178' r='11' />
+      <text font-family='sans-serif' font-size='8' x='198' y='181' fill='black' text-anchor='middle'>9</text>
+      <line x1='228' y1='134' x2='242' y2='178' stroke='#000' stroke-width='1' />
+      <text font-family='sans-serif' font-size='6' x='253' y='165' fill='black' text-anchor='middle'>(0/0)</text>
+      <circle fill='white' stroke='black' cx='242' cy='178' r='11' />
+      <text font-family='sans-serif' font-size='8' x='242' y='181' fill='black' text-anchor='middle'>11</text>
+      <line x1='272' y1='82' x2='308' y2='126' stroke='#000' stroke-width='1' />
+      <text font-family='sans-serif' font-size='6' x='319' y='113' fill='black' text-anchor='middle'>(1/0)</text>
+      <circle fill='white' stroke='black' cx='308' cy='126' r='11' />
+      <text font-family='sans-serif' font-size='8' x='308' y='129' fill='black' text-anchor='middle'>14</text>
+      <line x1='300' y1='134' x2='286' y2='178' stroke='#000' stroke-width='1' />
+      <text font-family='sans-serif' font-size='6' x='275' y='165' fill='black' text-anchor='middle'>(0/0)</text>
+      <circle fill='white' stroke='black' cx='286' cy='178' r='11' />
+      <text font-family='sans-serif' font-size='8' x='286' y='181' fill='black' text-anchor='middle'>13</text>
+      <line x1='316' y1='134' x2='330' y2='178' stroke='#000' stroke-width='1' />
+      <text font-family='sans-serif' font-size='6' x='341' y='165' fill='black' text-anchor='middle'>(0/0)</text>
+      <circle fill='white' stroke='black' cx='330' cy='178' r='11' />
+      <text font-family='sans-serif' font-size='8' x='330' y='181' fill='black' text-anchor='middle'>15</text>
+      </g>
+    </svg>

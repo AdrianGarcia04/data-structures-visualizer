@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+   <svg width='430' height='430'>
+      <g>
+      <line x1='405' y1='215' x2='369' y2='327' stroke='#000' stroke-width='1' />
+      <line x1='274' y1='396' x2='156' y2='396' stroke='#000' stroke-width='1' />
+      <line x1='61' y1='327' x2='25' y2='215' stroke='#000' stroke-width='1' />
+      <line x1='61' y1='103' x2='156' y2='34' stroke='#000' stroke-width='1' />
+      <line x1='274' y1='34' x2='369' y2='103' stroke='#000' stroke-width='1' />
+      <circle fill='white' stroke='black' cx='405' cy='215' r='15' />
+      <text font-family='sans-serif' font-size='10' x='405' y='219' fill='black' text-anchor='middle'>1</text>
+      <circle fill='white' stroke='black' cx='369' cy='327' r='15' />
+      <text font-family='sans-serif' font-size='10' x='369' y='331' fill='black' text-anchor='middle'>2</text>
+      <circle fill='white' stroke='black' cx='274' cy='396' r='15' />
+      <text font-family='sans-serif' font-size='10' x='274' y='400' fill='black' text-anchor='middle'>3</text>
+      <circle fill='white' stroke='black' cx='156' cy='396' r='15' />
+      <text font-family='sans-serif' font-size='10' x='156' y='400' fill='black' text-anchor='middle'>4</text>
+      <circle fill='white' stroke='black' cx='61' cy='327' r='15' />
+      <text font-family='sans-serif' font-size='10' x='61' y='331' fill='black' text-anchor='middle'>5</text>
+      <circle fill='white' stroke='black' cx='25' cy='215' r='15' />
+      <text font-family='sans-serif' font-size='10' x='25' y='219' fill='black' text-anchor='middle'>6</text>
+      <circle fill='white' stroke='black' cx='61' cy='103' r='15' />
+      <text font-family='sans-serif' font-size='10' x='61' y='107' fill='black' text-anchor='middle'>7</text>
+      <circle fill='white' stroke='black' cx='156' cy='34' r='15' />
+      <text font-family='sans-serif' font-size='10' x='156' y='38' fill='black' text-anchor='middle'>8</text>
+      <circle fill='white' stroke='black' cx='274' cy='34' r='15' />
+      <text font-family='sans-serif' font-size='10' x='274' y='38' fill='black' text-anchor='middle'>9</text>
+      <circle fill='white' stroke='black' cx='369' cy='103' r='15' />
+      <text font-family='sans-serif' font-size='10' x='369' y='107' fill='black' text-anchor='middle'>10</text>
+      </g>
+    </svg>
