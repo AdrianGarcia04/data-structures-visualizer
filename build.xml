@@ -3,7 +3,6 @@
 
   <property name="build.dir" value="build" />
   <property name="src.dir"   value="src" />
-  <property name="lib.dir"   value="lib" />
   <property name="doc.dir"   value="doc" />
 
   <target name="dsv.jar" depends="compile.dsv">
@@ -24,11 +23,6 @@
            includeantruntime="false"
            deprecation="true"
            nowarn="off">
-      <classpath>
-        <fileset dir="${lib.dir}">
-          <include name="*.jar"/>
-        </fileset>
-      </classpath>
       <compilerarg value="-Xlint:unchecked"/>
     </javac>
   </target>
@@ -47,10 +41,6 @@
       <doctitle><![CDATA[<h1>Estructuras de Datos</h1>]]></doctitle>
       <link href="https://docs.oracle.com/javase/8/docs/api/" />
       <link href="http://junit.org/junit4/javadoc/latest/" />
-      <classpath>
-        <pathelement location="${lib.dir}/junit.jar" />
-        <pathelement location="${lib.dir}/hamcrest-core.jar" />
-      </classpath>
     </javadoc>
   </target>
 
@@ -63,11 +53,6 @@
   <target name="test" depends="compile.dsv">
     <junit printsummary="yes" haltonfailure="no">
       <formatter type="plain" usefile="false" />
-      <classpath>
-        <pathelement path="${build.dir}" />
-        <pathelement location="${lib.dir}/junit.jar" />
-        <pathelement location="${lib.dir}/hamcrest-core.jar" />
-      </classpath>
       <batchtest fork="yes">
         <fileset dir="${src.dir}">
           <include name="**/Test*.java" />
