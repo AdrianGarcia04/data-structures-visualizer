@@ -25,25 +25,25 @@ corresponding elements
 
 Available structures  | Command
 ------------ | -------------
-Doubly-linked list  | Lista
-Stack  | Pila
-Queue  | Cola
-Complete binary tree  | ArbolBinarioCompleto
-Ordered binary tree  | ArbolBinarioOrdenado
-AVL tree  | ArbolAVL
-RB tree  | ArbolRojinegro
-Minheap  | MonticuloMinimo
-Graph  | Grafica
+Doubly-linked list  | L
+Stack  | S
+Queue  | Q
+Complete Binary Tree  | CBT
+Binary Search Tree  | BST
+AVL tree  | AVL
+RB tree  | RBT
+Minheap  | MH
+Graph  | G
 
 For instance:
 
-> Lista 1 2 3 4 5
+> L 1 2 3 4 5
 
-> ArbolAVL 1 2 3 4 5
+> AVL 1 2 3 4 5
 
-> MonticuloMinimo 1 2 3 4 5
+> MH 1 2 3 4 5
 
-> Graph 1 1 2 3 10 20 15 25 30 30
+> G 1 1 2 3 10 20 15 25 30 30
 
 are valid files.
 
