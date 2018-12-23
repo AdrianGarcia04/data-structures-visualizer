@@ -48,9 +48,9 @@ public class GraficadorEstructuraLineal extends Graficador {
     * Grafica la estructura.
     */
     @Override protected void grafica() {
-        if (estructura.equals(Estructura.LISTA))
+        if (estructura.equals(Estructura.L))
             graficaLista();
-        else if (estructura.equals(Estructura.COLA))
+        else if (estructura.equals(Estructura.Q))
             graficaCola();
         else
             graficaPila();

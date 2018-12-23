@@ -102,24 +102,24 @@ public abstract class LectorArgumentos {
      */
     private static Estructura determinaEstructura(String estructura) {
         switch (estructura) {
-            case "Lista":
-                return Estructura.LISTA;
-            case "Cola":
-                return Estructura.COLA;
-            case "Pila":
-                return Estructura.PILA;
-            case "ArbolBinarioCompleto":
-                return Estructura.ARBOLBINARIOCOMPLETO;
-            case "ArbolBinarioOrdenado":
-                return Estructura.ARBOLBINARIOORDENADO;
-            case "ArbolRojinegro":
-                return Estructura.ARBOLROJINEGRO;
-            case "ArbolAVL":
-                return Estructura.ARBOLAVL;
-            case "Grafica":
-                return Estructura.GRAFICA;
-            case "MonticuloMinimo":
-                return Estructura.MONTICULOMINIMO;
+            case "L":
+                return Estructura.L;
+            case "Q":
+                return Estructura.Q;
+            case "S":
+                return Estructura.S;
+            case "CBT":
+                return Estructura.CBT;
+            case "BST":
+                return Estructura.BST;
+            case "RBT":
+                return Estructura.RBT;
+            case "AVL":
+                return Estructura.AVL;
+            case "G":
+                return Estructura.G;
+            case "MH":
+                return Estructura.MH;
             default:
                 salidaError("Estructura desconocida");
         }

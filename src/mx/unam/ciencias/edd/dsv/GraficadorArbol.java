@@ -57,16 +57,16 @@ public class GraficadorArbol extends Graficador {
         this.estructura = estructura;
         this.coleccion = coleccion;
         switch (estructura) {
-            case ARBOLBINARIOCOMPLETO:
+            case CBT:
                 arbolBinario = new ArbolBinarioCompleto<Integer>(coleccion);
                 break;
-            case ARBOLBINARIOORDENADO:
+            case BST:
                 arbolBinario = new ArbolBinarioOrdenado<Integer>(coleccion);
                 break;
-            case ARBOLROJINEGRO:
+            case RBT:
                 arbolBinario = new ArbolRojinegro<Integer>(coleccion);
                 break;
-            case MONTICULOMINIMO:
+            case MH:
                 pueblaMonticuloMinimo();
                 break;
             default:
@@ -74,7 +74,7 @@ public class GraficadorArbol extends Graficador {
         }
         radio = getAnchoContenedor(coleccion, 2, 7);
         separacionNivel = 30;
-        if (estructura.equals(Estructura.ARBOLAVL)){
+        if (estructura.equals(Estructura.AVL)){
             ancho = Math.pow(2, arbolBinario.altura()) * (radio * 4);
             largo = arbolBinario.altura() * radio * 2
                     + arbolBinario.altura() * separacionNivel + radio * 3;
@@ -95,11 +95,11 @@ public class GraficadorArbol extends Graficador {
     * Grafica el árbol binario o en su caso, un montículo mínimo.
     */
     @Override protected void grafica() {
-        if (estructura.equals(Estructura.MONTICULOMINIMO))
+        if (estructura.equals(Estructura.MH))
             graficaMonticulo();
         else {
             SVG.escribeCabecera(ancho, largo, false);
-            if (estructura.equals(Estructura.ARBOLAVL))
+            if (estructura.equals(Estructura.AVL))
                 graficaArbol(arbolBinario.raiz(), 0, ancho, radio * 2, false);
             else
                 graficaArbol(arbolBinario.raiz(), 0, ancho, radio, false);
@@ -125,7 +125,7 @@ public class GraficadorArbol extends Graficador {
         String colorFondo = "white";
         String colorLinea = "black";
         String textColor = "black";
-        if (estructura.equals(Estructura.ARBOLROJINEGRO)) {
+        if (estructura.equals(Estructura.RBT)) {
             ArbolRojinegro<Integer> arn = (ArbolRojinegro<Integer>) arbolBinario;
             if(arn.getColor(vertice) == Color.NEGRO)
                 colorFondo = "black";
@@ -133,7 +133,7 @@ public class GraficadorArbol extends Graficador {
                 colorLinea = colorFondo = "red";
             textColor = "white";
         }
-        if (estructura.equals(Estructura.ARBOLAVL)) {
+        if (estructura.equals(Estructura.AVL)) {
             int balance = getBalance(vertice);
             double x3 = (esHijoIzquierdo) ? x - radio : x + radio;
             SVG.dibujaTexto(x3, y - radio - 2, "(" + vertice.altura() + "/" + balance + ")", "black", 6);

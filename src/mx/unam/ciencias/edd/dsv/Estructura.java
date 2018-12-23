@@ -6,30 +6,30 @@ package mx.unam.ciencias.edd.dsv;
 public enum Estructura {
 
     /** Enumeracion correspondiente a una lista doblemente ligada. */
-    LISTA,
-    
+    L,
+
     /** Enumeracion correspondiente a una cola. */
-    COLA,
-    
+    Q,
+
     /** Enumeracion correspondiente a una pila. */
-    PILA,
-    
+    S,
+
     /** Enumeracion correspondiente a un árbol binario completo. */
-    ARBOLBINARIOCOMPLETO,
-    
+    CBT,
+
     /** Enumeracion correspondiente a un árbol binario ordenado. */
-    ARBOLBINARIOORDENADO,
-    
+    BST,
+
     /** Enumeracion correspondiente a un árbol rojinegro. */
-    ARBOLROJINEGRO,
-    
+    RBT,
+
     /** Enumeracion correspondiente a un árbol AVL. */
-    ARBOLAVL,
-    
+    AVL,
+
     /** Enumeracion correspondiente a una gráfica. */
-    GRAFICA,
-    
+    G,
+
     /** Enumeracion correspondiente a un montículo mínimo. */
-    MONTICULOMINIMO;
+    MH;
 
 }

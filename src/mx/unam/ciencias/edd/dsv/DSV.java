@@ -10,10 +10,10 @@ public class DSV {
     public static void main(String[] args) {
         Lista<Integer> lista = LectorArgumentos.lee(args);
         Estructura estructura = LectorArgumentos.getEstructura();
-        if (estructura.equals(Estructura.LISTA) || estructura.equals(Estructura.PILA)
-            || estructura.equals(Estructura.COLA))
+        if (estructura.equals(Estructura.L) || estructura.equals(Estructura.S)
+            || estructura.equals(Estructura.Q))
                 new GraficadorEstructuraLineal(estructura, lista);
-        else if (estructura.equals(Estructura.GRAFICA))
+        else if (estructura.equals(Estructura.G))
             new GraficadorGrafica(lista);
         else
             new GraficadorArbol(estructura, lista);
